@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.row {
+    border: 1px solid red;
+}
+
+.header__btn {
+    height: 2rem;
+}
+.header__btn__icon {
+    font-size: 1rem;
+    vertical-align: revert;
+}
+.header__in {
+    width: 2rem;
+}
+
+.main__image {
+    height: 45rem;
+    object-fit: cover;
+}
+
+.discover {
+    background-color: rgba(231, 144, 238, 0.2);
+}
+.discover .card {
+    border-radius: 42px 15px 42px 15px;
+}
+.discover .card:hover {
+    animation-name: bou;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.97, 0.17, 0.63, 1.33);
+    box-shadow: 1px 4px 15px 1px rgba(0, 0, 0, 0.29);
+}
+.discover-title {
+    display: inline-block;
+    font-size: 1.2rem;
+    vertical-align: middle;
+}
+.discover__icon {
+    color: #da0bf5;
+    font-size: 2rem;
+    margin: 1rem 1.5rem;
+}
+.discover .card-body {
+    flex: 1 1 auto;
+    padding: 1rem 0;
+    text-align: justify;
+    width: 15rem;
+    margin: 0 auto;
+}
+.discover .card-text {
+    font-size: 1.1rem;
+}
+@keyframes bou {
+    0% {
+        transform: scale(0.9);
+        transform-origin: center;
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+.product-one-pa {
+    font-size: 1.2rem;
+}
+.product-one-title {
+    font-size: 2rem;
+}
+.product-one-p {
+    font-size: 1.2rem;
+    width: 25rem;
+}
+
+.product-two .card-image {
+    height: 25rem;
+}
