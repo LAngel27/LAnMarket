@@ -1,5 +1,17 @@
 .product-two {
-    .card-image{
-        height: 25rem;
+    background-color: $background;
+    border-radius: 100px 100px 15px 15px;
+    .card img{
+        height: 30rem;
+        object-fit: cover;
+    }
+
+    .btn{
+        width: 12rem;
+        background-color: $icon-color;
+    }
+
+    .card-text{
+        font-size: 1.3rem;
     }
 }

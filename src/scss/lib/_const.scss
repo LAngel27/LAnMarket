@@ -12,7 +12,10 @@ html{
     font-size: 62.5%;
 }
 
-
-.row{
+.container{
+    padding: 0;
     border: $border-red;
 }
+// .row{
+//     border: $border-red;
+// }

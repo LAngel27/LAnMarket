@@ -1,7 +1,10 @@
 .product-one{
     
+    .card{
+        border-color: transparent;
+    }
     &-pa{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     
 
@@ -12,6 +15,10 @@
     &-p{
         font-size: 1.2rem;
         width: 25rem;
+    }
+
+    .card-text{
+        font-size: 1.2rem;
     }
 
 

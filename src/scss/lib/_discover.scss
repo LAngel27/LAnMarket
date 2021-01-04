@@ -5,6 +5,7 @@
 
     .card{
         border-radius: 42px 15px 42px 15px;
+        border-color: transparent;
     }
 
     .card:hover{
@@ -17,13 +18,13 @@
 
     &-title{
         display: inline-block;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         vertical-align: middle;
     }
 
     &__icon{
         color: $icon-color;
-        font-size: 2rem;
+        font-size: 2.2rem;
         margin: 1rem 1.5rem;
     }
     .card-body {
@@ -35,7 +36,8 @@
     }
 
     .card-text{
-        font-size: 1.1rem;
+        font-size: 1.2rem;
+        padding: 1rem;
     }
 
     @keyframes bou {
