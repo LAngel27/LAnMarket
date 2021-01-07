@@ -8,11 +8,6 @@ html {
     font-size: 62.5%;
 }
 
-.container {
-    padding: 0;
-    border: 1px solid red;
-}
-
 .header__btn {
     height: 2rem;
 }
@@ -30,7 +25,7 @@ html {
 }
 
 .discover {
-    background-color: rgba(231, 144, 238, 0.2);
+    background-color: rgba(210, 109, 224, 0.37);
 }
 .discover .card {
     border-radius: 42px 15px 42px 15px;
@@ -40,7 +35,7 @@ html {
     animation-name: bou;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
-    animation-timing-function: cubic-bezier(0.97, 0.17, 0.63, 1.33);
+    animation-timing-function: ease-in;
     box-shadow: 1px 4px 15px 1px rgba(0, 0, 0, 0.29);
 }
 .discover-title {
@@ -73,6 +68,11 @@ html {
         transform: scale(1.1);
     }
 }
+@media only screen and (max-width: 425px) {
+    .discover .card {
+        width: 28rem;
+    }
+}
 
 .product-one .card {
     border-color: transparent;
@@ -87,12 +87,15 @@ html {
     font-size: 1.2rem;
     width: 25rem;
 }
+.product-one .card-body {
+    width: 20rem;
+}
 .product-one .card-text {
     font-size: 1.2rem;
 }
 
 .product-two {
-    background-color: rgba(231, 144, 238, 0.2);
+    background-color: rgba(210, 109, 224, 0.37);
     border-radius: 100px 100px 15px 15px;
 }
 .product-two .card img {
@@ -105,4 +108,43 @@ html {
 }
 .product-two .card-text {
     font-size: 1.3rem;
+}
+
+.product-tree .card {
+    max-width: 23rem;
+}
+.product-tree .card p {
+    font-size: 1.1rem;
+}
+.product-tree .image-container {
+    overflow: hidden;
+    /* width: 23rem; */
+    /* height: 20rem; */
+    max-width: 23rem;
+    padding: 0;
+}
+.product-tree .image-container img {
+    height: 22rem;
+    width: 100%;
+}
+
+.product-four .card {
+    width: 25rem;
+    margin: auto;
+}
+
+.contact .box-1 {
+    width: 30rem;
+    border: solid red 1px;
+    height: 30rem;
+    margin: auto;
+    background-image: url("../../../src/img/image-test.jpg");
+    background-size: cover;
+}
+.contact .box-2 {
+    width: 30rem;
+    background-color: rgba(210, 109, 224, 0.37);
+    border: solid red 1px;
+    height: 30rem;
+    margin: auto;
 }

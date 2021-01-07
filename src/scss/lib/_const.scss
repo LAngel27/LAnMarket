@@ -1,7 +1,7 @@
 
 $border-red: 1px solid red;
 $icon-color: #da0bf5;
-$background: rgb(231, 144, 238, 0.2);
+$background: rgba(210, 109, 224, 0.37);
 
 *{
     padding: 0;
@@ -12,10 +12,7 @@ html{
     font-size: 62.5%;
 }
 
-.container{
-    padding: 0;
-    border: $border-red;
-}
+
 // .row{
 //     border: $border-red;
 // }
