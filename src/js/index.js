@@ -30,22 +30,24 @@
 
 
 
-$(document).ready(() => {
-    let $header = $('.header').find('.navbar') // selector
-    $('.header .navbar-toggler').on('click', () => {
-        create.hide()
-    })
-    let create = $('<a>', { href: 'https://platzi.com',target: '_blank',html: 'hello world'}).appendTo($header) // createElement
+// $(document).ready(() => {
+//     let $header = $('.header').find('.navbar') // selector
+//     $('.header .navbar-toggler').on('click', () => {
+//         create.hide()
+//     })
+//     let create = $('<a>', { href: 'https://platzi.com',target: '_blank',html: 'hello world'}).appendTo($header) // createElement
 
-    console.log(create.attr('href'))
+//     // create.css({
+//     //     'font-size': '100px', // add style
+//     // })
+    
+//     // console.log(create.attr('href')) // attributes 
+//     // console.log(create.attr('href', 'google')) // attribute set(cambiar)
 
 
-    setTimeout(() => {
-        create.css({
-            'font-size': '100px', // add style
-        })
-        create.html('<h1>jeje</h1>') // innerHtml
-    }, 5000);
+//     // setTimeout(() => {
+//     //     create.html('<h1>jeje</h1>') // innerHtml
+//     // }, 5000);
 
-})
+// })
 

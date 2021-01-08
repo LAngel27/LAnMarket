@@ -20,12 +20,12 @@ html {
 }
 
 .main__image {
-    height: 45rem;
+    height: 60rem;
     object-fit: cover;
 }
 
 .discover {
-    background-color: rgba(210, 109, 224, 0.37);
+    background-color: rgba(210, 109, 224, 0.1);
 }
 .discover .card {
     border-radius: 42px 15px 42px 15px;
@@ -50,14 +50,13 @@ html {
 }
 .discover .card-body {
     flex: 1 1 auto;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     text-align: justify;
     width: 15rem;
     margin: 0 auto;
 }
 .discover .card-text {
     font-size: 1.2rem;
-    padding: 1rem;
 }
 @keyframes bou {
     0% {
@@ -68,9 +67,20 @@ html {
         transform: scale(1.1);
     }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 572px) {
     .discover .card {
         width: 28rem;
+    }
+}
+@media only screen and (max-width: 769px) {
+    .discover .card {
+        margin: 0.5rem 0.5rem;
+        width: 35rem;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .discover .card {
+        margin: 1rem 1rem;
     }
 }
 
@@ -87,16 +97,22 @@ html {
     font-size: 1.2rem;
     width: 25rem;
 }
-.product-one .card-body {
-    width: 20rem;
-}
 .product-one .card-text {
-    font-size: 1.2rem;
+    font-size: 95%;
+    font-weight: 600;
+}
+@media only screen and (max-width: 570px) {
+    .product-one .card {
+        width: 32rem;
+    }
+    .product-one .card-body {
+        width: 100%;
+    }
 }
 
 .product-two {
-    background-color: rgba(210, 109, 224, 0.37);
-    border-radius: 100px 100px 15px 15px;
+    background-color: rgba(210, 109, 224, 0.1);
+    border-radius: 0px 100px 0px 0px;
 }
 .product-two .card img {
     height: 30rem;
@@ -109,42 +125,65 @@ html {
 .product-two .card-text {
     font-size: 1.3rem;
 }
+@media only screen and (max-width: 570px) {
+    .product-two .card {
+        width: 80%;
+        margin: 2rem auto;
+    }
+}
 
 .product-tree .card {
-    max-width: 23rem;
+    width: 28rem;
+    border: none;
 }
 .product-tree .card p {
     font-size: 1.1rem;
+}
+.product-tree span {
+    font-size: 2rem;
+}
+.product-tree span::after {
+    content: ":";
+    margin: 0 0.2rem;
 }
 .product-tree .image-container {
     overflow: hidden;
     /* width: 23rem; */
     /* height: 20rem; */
-    max-width: 23rem;
+    max-width: 28rem;
     padding: 0;
 }
 .product-tree .image-container img {
-    height: 22rem;
-    width: 100%;
-}
-
-.product-four .card {
-    width: 25rem;
-    margin: auto;
+    height: 28rem;
+    object-fit: cover;
 }
 
 .contact .box-1 {
-    width: 30rem;
-    border: solid red 1px;
+    width: 40rem;
+    border: 1px solid red none;
     height: 30rem;
-    margin: auto;
     background-image: url("../../../src/img/image-test.jpg");
     background-size: cover;
 }
 .contact .box-2 {
-    width: 30rem;
-    background-color: rgba(210, 109, 224, 0.37);
-    border: solid red 1px;
-    height: 30rem;
-    margin: auto;
+    width: 35rem;
+    background-color: rgba(210, 109, 224, 0.1);
+    border: 1px solid red none;
+}
+.contact input {
+    height: 2rem;
+}
+@media only screen and (max-width: 992px) {
+    .contact .box-1 {
+        width: 30rem;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .contact .box-1 {
+        width: 85%;
+    }
+    .contact .box-2 {
+        width: 85%;
+        margin-top: 2rem;
+    }
 }

@@ -16,12 +16,20 @@
         font-size: 1.2rem;
         width: 25rem;
     }
-
-    .card-body{
-        width: 20rem;
-    }
     .card-text{
-        font-size: 1.2rem;
+        font-size: 95%;
+        font-weight: 600;
+    }
+
+    @media only screen and (max-width: 570px){
+        
+        .card{
+            width: 32rem;
+        }
+
+        .card-body{
+            width: 100%;
+        }
     }
 
 

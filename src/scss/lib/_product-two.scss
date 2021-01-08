@@ -1,6 +1,7 @@
 .product-two {
     background-color: $background;
-    border-radius: 100px 100px 15px 15px;
+    border-radius: 0px 100px 0px 0px;
+    
     .card img{
         height: 30rem;
         object-fit: cover;
@@ -13,5 +14,12 @@
 
     .card-text{
         font-size: 1.3rem;
+    }
+
+    @media only screen and (max-width: 570px){
+        .card{
+            width: 80%;
+            margin: 2rem auto;
+        }
     }
 }

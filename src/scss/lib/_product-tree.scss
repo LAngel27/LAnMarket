@@ -1,23 +1,35 @@
 .product-tree{
     
     .card{
-        max-width: 23rem;
+        width: 28rem;
+        border: none;
     }
 
     .card p{
         font-size: 1.1rem;
     }
 
+    span{
+        font-size: 2rem;
+    }
+
+    span::after{
+        content: ':';
+        margin: 0 .2rem;
+    }
+    
+    
+    
     .image-container {
         overflow: hidden;
         /* width: 23rem; */
         /* height: 20rem; */
-        max-width: 23rem;
+        max-width: 28rem;
         padding: 0;
     }
 
     .image-container img{
-        height: 22rem;
-        width: 100%;
+        height: 28rem;
+        object-fit: cover;
     }
 }
