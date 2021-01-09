@@ -159,31 +159,49 @@ html {
 }
 
 .contact .box-1 {
-    width: 40rem;
+    max-width: 40rem;
     border: 1px solid red none;
-    height: 30rem;
+    height: 35rem;
     background-image: url("../../../src/img/image-test.jpg");
     background-size: cover;
 }
 .contact .box-2 {
-    width: 35rem;
+    max-width: 35rem;
+    height: 35rem;
     background-color: rgba(210, 109, 224, 0.1);
     border: 1px solid red none;
 }
 .contact input {
-    height: 2rem;
+    height: 3rem;
 }
-@media only screen and (max-width: 992px) {
-    .contact .box-1 {
-        width: 30rem;
-    }
+.contact .form-check-input {
+    width: 2.5rem;
+    margin-right: 2rem;
+    height: 2.2rem;
+    border-radius: 1rem;
+}
+.contact .btn-primary {
+    width: 8rem;
+    margin: 0.5rem auto;
+    font-size: 1.3rem;
+}
+.contact label {
+    font-size: 1.3rem;
+}
+.contact form {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
 }
 @media only screen and (max-width: 767px) {
     .contact .box-1 {
-        width: 85%;
+        width: 65%;
+        margin: auto;
     }
     .contact .box-2 {
-        width: 85%;
-        margin-top: 2rem;
+        width: 65%;
+        margin: 1rem auto 0 auto;
     }
 }
