@@ -9,7 +9,7 @@
     }
 
     .box-2{
-        max-width: 35rem;
+        max-width: 40rem;
         height: 35rem;
         background-color: $background;
         border: $border-red none;
@@ -33,7 +33,7 @@
     }
 
     label{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
     
     form{
@@ -46,12 +46,12 @@
 
     @media only screen and (max-width: 767px){
         .box-1 {
-            width: 65%;
+            width: 95%;
             margin: auto;
         }
 
         .box-2{
-            width: 65%;
+            width: 95%;
             margin: 1rem auto 0 auto;
         }
     }

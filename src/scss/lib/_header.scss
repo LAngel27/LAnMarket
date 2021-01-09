@@ -1,15 +1,32 @@
 .header{
 
-    &__btn{
-        height: 2rem;
+    .nav-link {
+        font-size: 20px;
     }
-
-    &__btn__icon{
-        font-size: 1rem;
-        vertical-align: revert;
+      
+    .navbar {
+        border-radius: 0px;
     }
-
-    &__in{
-        width: 2rem;
+      
+    .navbar-brand {
+        font-size: 35px;
+    }
+    .form-inline{
+        display: flex;
+        width: 40rem;
+        border: $border-red none;
+        height: 4rem;
+    }
+      
+    @media screen and (max-width: 995px) {
+        .dropdown-item {
+        color: #fff;
+        border: none;
+        background-color: #373d42;
+    }
+      
+    .dropdown-menu {
+        background-color: #373d42;
+        }
     }
 }

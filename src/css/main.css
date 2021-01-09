@@ -8,15 +8,30 @@ html {
     font-size: 62.5%;
 }
 
-.header__btn {
-    height: 2rem;
+.header .nav-link {
+    font-size: 20px;
 }
-.header__btn__icon {
-    font-size: 1rem;
-    vertical-align: revert;
+.header .navbar {
+    border-radius: 0px;
 }
-.header__in {
-    width: 2rem;
+.header .navbar-brand {
+    font-size: 35px;
+}
+.header .form-inline {
+    display: flex;
+    width: 40rem;
+    border: 1px solid red none;
+    height: 4rem;
+}
+@media screen and (max-width: 995px) {
+    .header .dropdown-item {
+        color: #fff;
+        border: none;
+        background-color: #373d42;
+    }
+    .header .dropdown-menu {
+        background-color: #373d42;
+    }
 }
 
 .main__image {
@@ -24,20 +39,6 @@ html {
     object-fit: cover;
 }
 
-.discover {
-    background-color: rgba(210, 109, 224, 0.1);
-}
-.discover .card {
-    border-radius: 42px 15px 42px 15px;
-    border-color: transparent;
-}
-.discover .card:hover {
-    animation-name: bou;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in;
-    box-shadow: 1px 4px 15px 1px rgba(0, 0, 0, 0.29);
-}
 .discover-title {
     display: inline-block;
     font-size: 1.3rem;
@@ -54,6 +55,17 @@ html {
     text-align: justify;
     width: 15rem;
     margin: 0 auto;
+}
+.discover .card {
+    border-radius: 42px 15px 42px 15px;
+    border-color: transparent;
+}
+.discover .card:hover {
+    animation-name: bou;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    box-shadow: 1px 4px 15px 1px rgba(0, 0, 0, 0.29);
 }
 .discover .card-text {
     font-size: 1.2rem;
@@ -72,10 +84,9 @@ html {
         width: 28rem;
     }
 }
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 767px) {
     .discover .card {
         margin: 0.5rem 0.5rem;
-        width: 35rem;
     }
 }
 @media only screen and (max-width: 992px) {
@@ -111,7 +122,7 @@ html {
 }
 
 .product-two {
-    background-color: rgba(210, 109, 224, 0.1);
+    background-color: rgba(210, 109, 224, 0.28);
     border-radius: 0px 100px 0px 0px;
 }
 .product-two .card img {
@@ -140,7 +151,7 @@ html {
     font-size: 1.1rem;
 }
 .product-tree span {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 .product-tree span::after {
     content: ":";
@@ -166,9 +177,9 @@ html {
     background-size: cover;
 }
 .contact .box-2 {
-    max-width: 35rem;
+    max-width: 40rem;
     height: 35rem;
-    background-color: rgba(210, 109, 224, 0.1);
+    background-color: rgba(210, 109, 224, 0.28);
     border: 1px solid red none;
 }
 .contact input {
@@ -186,7 +197,7 @@ html {
     font-size: 1.3rem;
 }
 .contact label {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 .contact form {
     display: flex;
@@ -197,11 +208,11 @@ html {
 }
 @media only screen and (max-width: 767px) {
     .contact .box-1 {
-        width: 65%;
+        width: 95%;
         margin: auto;
     }
     .contact .box-2 {
-        width: 65%;
+        width: 95%;
         margin: 1rem auto 0 auto;
     }
 }
