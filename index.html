@@ -13,19 +13,19 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <title>Hello, world</title>
   </head>
-  <body>
+  <body class="position-relative" data-bs-spy="scroll" data-bs-target="#init" data-bs-offset="0" tabindex="0" >
     <header class="header sticky-top" id="init">
       <div class="container-fluid">
         <div class="row">
           <div class="navbar navbar-expand-sm navbar-dark bg-dark mb-0"><a class="navbar-brand navbar-light h1" href="#">Boostrap</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03"> 
-              <ul class="navbar-nav mr-auto mt-lg-0">
-                <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-                <li class="nav-item active"><a class="nav-link" href="#">Conect</a></li>
-                <li class="nav-item active"><a class="nav-link" href="#">Conect</a></li>
-                <li class="nav-item active"><a class="nav-link" href="#">Conect</a></li>
-                <li class="nav-item active"><a class="nav-link" href="https://getbootstrap.com/" target="_blank">Boostrap</a></li>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" ><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"  id="navbar"> 
+              <ul class="navbar-nav mr-auto active mt-lg-0">
+                <li class="nav-item active"><a class="nav-link" href="#hero">Home</a></li>
+                <li class="nav-item active"><a class="nav-link" href="#card-discover">Conect</a></li>
+                <li class="nav-item active"><a class="nav-link" href="#one">Conect</a></li>
+                <li class="nav-item active "><a class="nav-link" href="#two">Conect</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://getbootstrap.com/" target="_blank">Boostrap</a></li>
               </ul>
             </div>
             <form class="form-inline">
@@ -62,7 +62,7 @@
         </div>
       </div>
     </main>
-    <section class="discover overflow-hidden">
+    <section class="discover overflow-hidden" id="card-discover">
       <div class="container">
         <div class="row mt-5 p-5 justify-content-center">
           <div class="card p-2 col-sm-5 col-xl-3 col-md-5 col-lg-3 col-xl-3  m-xl-0 m-lg-0">
@@ -104,7 +104,7 @@
         </div>
       </div>
     </section>
-    <section class="product-one overflow-hidden" id="1">
+    <section class="product-one overflow-hidden" id="one">
       <div class="container">
         <div class="row justify-content-center">
           <div class="title text-center mt-5">
@@ -179,7 +179,7 @@
         </div>
       </div>
     </section>
-    <section class="product-two mt-5 pb-5 overflow-hidden">
+    <section class="product-two mt-5 pb-5 overflow-hidden" id="two">
       <div class="container">
         <div class="title text-center mt-5">
           <p class="product-two-pa">title amet it</p>

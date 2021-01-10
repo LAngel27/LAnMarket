@@ -24,7 +24,6 @@ html {
 }
 .header .navbar-collapse {
     border: 1px solid red none;
-    width: 100%;
 }
 .header .form-inline {
     display: flex;
