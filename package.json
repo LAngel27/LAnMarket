@@ -4,16 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "start": "live-server"
   },
   "keywords": [],
   "author": "LAngel <luiscartaya653@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "animate.css": "^4.1.1",
     "moment": "^2.29.1"
   },
   "devDependencies": {
-    "bootstrap": "^5.0.0-beta1",
     "eslint": "^7.17.0"
   }
 }

@@ -1,6 +1,3 @@
-// // let d = ${document}.ready(function(){
-// //     alert('hola')
-// // });
 
 
 // $(document).ready(() => {
@@ -25,16 +22,15 @@
 //     console.log(create.attr('href', 'google')) // attribute set(cambiar)
 
 
-//     $.ajax({
-//         url: 'https://randomuser.me/api/?results=1',
-//         dataType: 'json',
-//         success: function (data) {
-//             console.log(data.results[0].id)
-//         },
-//         error: function (err) {
-//             console.log(`${err} not found ${data}`)
-//         }
-        
 //     });
+
+// })
+
+
+// $(document).ready(() => {
+//     // let $product_two = $('#two')
+//     // $product_two.find('.box-1')
+//     //     .addClass('animate__fadeInLeft')
+        
 
 // })
