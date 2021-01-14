@@ -1,4 +1,8 @@
 .contact{
+            
+    background-image: url('https://i.pinimg.com/564x/ed/ec/c7/edecc77e63942d042c80adac6f8bb873.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 
     .box-1{
         max-width: 40rem;
@@ -11,12 +15,13 @@
     .box-2{
         max-width: 40rem;
         height: 35rem;
-        background-color: $background;
+        background-color: rgb(165 115 210 / 35%);
         border: $border-red none;
     }
 
     input{
         height: 3rem;
+        font-size: 1.4rem
     }
 
     .form-check-input{

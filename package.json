@@ -1,7 +1,7 @@
 {
   "name": "LAnMarket",
   "version": "1.0.0",
-  "description": "",
+  "description": "my tree project",
   "main": "index.js",
   "scripts": {
     "start": "live-server"
@@ -9,11 +9,10 @@
   "keywords": [],
   "author": "LAngel <luiscartaya653@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "animate.css": "^4.1.1",
-    "moment": "^2.29.1"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "eslint": "^7.17.0"
+    "animate.css": "4.1.1",
+    "eslint": "7.17.0",
+    "live-server": "1.2.1"
   }
 }

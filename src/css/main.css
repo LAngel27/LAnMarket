@@ -9,7 +9,7 @@ html {
 }
 
 .header .nav-link {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin: 0 1rem;
 }
 .header .navbar {
@@ -18,9 +18,11 @@ html {
 }
 .header .navbar-nav {
     margin: auto;
+    border: 1px solid red none;
 }
 .header .navbar-brand {
     font-size: 2rem;
+    border: 1px solid red none;
 }
 .header .navbar-collapse {
     border: 1px solid red none;
@@ -29,6 +31,8 @@ html {
     display: flex;
     border: 1px solid red none;
     height: 3rem;
+    width: 30rem;
+    justify-content: flex-end;
 }
 .header .form-control {
     margin: 0 1rem;
@@ -59,6 +63,9 @@ html {
     object-fit: cover;
 }
 
+.discover {
+    background: #f666ff47;
+}
 .discover-title {
     display: inline-block;
     font-size: 1.3rem;
@@ -189,6 +196,11 @@ html {
     object-fit: cover;
 }
 
+.contact {
+    background-image: url("https://i.pinimg.com/564x/ed/ec/c7/edecc77e63942d042c80adac6f8bb873.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .contact .box-1 {
     max-width: 40rem;
     border: 1px solid red none;
@@ -199,11 +211,12 @@ html {
 .contact .box-2 {
     max-width: 40rem;
     height: 35rem;
-    background-color: rgba(210, 109, 224, 0.28);
+    background-color: rgba(165, 115, 210, 0.35);
     border: 1px solid red none;
 }
 .contact input {
     height: 3rem;
+    font-size: 1.4rem;
 }
 .contact .form-check-input {
     width: 2.5rem;
@@ -235,4 +248,27 @@ html {
         width: 95%;
         margin: 1rem auto 0 auto;
     }
+}
+
+.footer {
+    background: #212529;
+    overflow: hidden;
+}
+.footer .box-1, .footer .box-2, .footer .box-3, .footer .box-4 {
+    border: 1px solid red;
+    padding: 2rem 2rem;
+}
+.footer .title {
+    color: white;
+    margin-bottom: 2rem;
+}
+.footer .paragraph {
+    font-size: 1.4rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+.footer .icon {
+    font-size: 2.2rem;
+    margin: 1rem 0.3rem;
+    color: white;
 }
